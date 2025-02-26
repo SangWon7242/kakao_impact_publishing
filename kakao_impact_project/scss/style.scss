@@ -1,1 +1,51 @@
 @charset "utf-8";
+
+.top-bar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  .logo {
+    display: block;
+    background-image: url(https://t1.kakaocdn.net/impact/newImpact/svg/logo_kakaoimpact.svg);
+    background-position: center center;
+    width: 132px;
+    height: 22px;
+  }
+}
+
+.top-bar__menu-1 {
+  > ul {
+    > li {
+      a {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        padding-inline: 20px;
+      }
+    }
+  }
+}
+
+.top-bar__buttons {
+  display: flex;
+  gap: 0 15px;
+
+  button {
+    width: 26px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+  }
+
+  .btn-mode {
+    background-image: url(https://t1.kakaocdn.net/impact/newImpact/svg/ico_dark.svg);
+  }
+
+  .menu-btn {
+    background-image: url(https://t1.kakaocdn.net/impact/newImpact/svg/ico_menu.svg);
+  }
+}
+
+.depth2-box {
+  display: none;
+}
